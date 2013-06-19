@@ -1,0 +1,45 @@
+/* You could change the font */
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$navbarBackground: white;
+$navbarBackgroundHighlight: white;
+$navbarHeight: 80px;
+
+@import 'bootstrap';
+
+
+body {
+	padding-top: 100px;
+	background: url('meadow.jpg');
+	.hero-unit {
+		width: 600px;
+		margin: 0 auto;
+		opacity: .90;
+		border: 1px solid #fff;
+	}
+}
+
+.herotext {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 1;
+}
+
+
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
